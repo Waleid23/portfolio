@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My GenAI Portfolio</title>
+  <meta name="description" content="Portfolio of artifacts built in my generative AI class." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="brand">Waleid Sami<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#artifacts">Artifacts</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Generative AI &middot; Fall Quarter 2026</p>
+      <h1>Building things <span class="accent">with AI</span>, one artifact at a time.</h1>
+      <p class="lead">
+        This site holds everything I build this quarter. It starts as a single
+        real card and grows into five finished projects by Week 10.
+      </p>
+      <a class="btn" href="#artifacts">See the artifacts</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About me</h2>
+      <div class="about-box">
+        <p>
+          Hi, I'm <strong>Waleid Sami</strong>. I'm a student studying
+          <strong>Computer Science</strong>, and I'm interested in
+          <strong>software development, technology, and building applications
+          that solve real-world problems</strong>. In this class I'm learning
+          how to describe what I want clearly enough for an AI to build it,
+          and how to notice when it misunderstands me.
+        </p>
+      </div>
+    </section>
+
+    <section id="artifacts" class="artifacts">
+      <h2>Artifacts</h2>
+      <p class="muted">Click a card to see what it is and how it went.</p>
+      <div id="card-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Waleid Sami &middot; Built with the help of an AI chat assistant.</p>
+  </footer>
+
+  <!-- Detail popup -->
+  <dialog id="modal" aria-labelledby="modal-title">
+    <button class="close" id="modal-close" aria-label="Close">&times;</button>
+    <p class="eyebrow" id="modal-num"></p>
+    <h3 id="modal-title"></h3>
+    <span class="status" id="modal-status"></span>
+
+    <h4>What this artifact is</h4>
+    <p id="modal-what"></p>
+
+    <h4>My idea</h4>
+    <p id="modal-idea"></p>
+
+    <h4>Link</h4>
+    <p id="modal-link"></p>
+
+    <h4>Reflection</h4>
+    <p id="modal-reflection"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
