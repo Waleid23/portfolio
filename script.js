@@ -12,7 +12,7 @@ const artifacts = [
     what:
       "A small static portfolio site (HTML, CSS, JavaScript only) with a card for each of the five course artifacts. It is also how I hand in every artifact this quarter.",
     idea: "A clean, dark, blue-accented site that grows as the quarter goes on.",
-    link: "", // e.g. "https://yourusername.github.io/portfolio/"
+    link: "https://waleid23.github.io/portfolio/",
     reflection:
       "I used Claude to build this site by describing the look I wanted: dark background, blue accents, five clickable cards, and an about-me section. The first version worked well, but I had to edit the placeholder text myself and fix the about-me wording, which repeated itself after I filled it in. I learned that being specific about the layout and what each card should contain gets a much better first result, and that I still need to read the output closely instead of trusting it.",
   },
