@@ -13,4 +13,4 @@
 4. **Wrote the Artifact 1 reflection** in `script.js`.
 
 ## Deployment
-- Live site: ADD YOUR LINK HERE AFTER YOU DEPLOY
+- Live site: https://waleid23.github.io/portfolio/
