@@ -18,13 +18,15 @@ const artifacts = [
   },
   {
     number: 2,
-    title: "Study App",
-    status: "Placeholder",
-    summary: "A study app that helps students prepare for exams.",
-    what: "An app where students can create flashcards and quiz themselves to study for exams.",
-    idea: "I want to make studying easier by helping students review information and test their knowledge.",
-    link: "",
-    reflection: "",
+    title: "Calorie Tracker",
+    status: "Complete",
+    summary: "A Python command-line tool for logging foods and totaling daily calories.",
+    what:
+      "A small Python command-line tool, built with Claude Code, that logs the foods I eat and adds up my calories for the day. My food data stays on my computer and out of GitHub.",
+    idea: "A quick way to track daily calories from the terminal without needing an app.",
+    link: "https://github.com/Waleid23/calorie-tracker",
+    reflection:
+      "This was my first time using Claude Code instead of a web chat. It built a small Python command-line tool that logs foods and adds up my calories for the day. My first message got cut off, but Claude guessed what I meant correctly, which showed me why it's worth reading what the agent did instead of assuming. I tested it myself by adding two foods and checking that the total came out to 555. I kept my food data out of GitHub with a .gitignore file. When auto mode blocked the push, I learned the difference between git on my computer and GitHub online, and I ran git push myself. I also got confused about which terminal I was using with Claude Code, but I figured it out and fixed it.",
   },
   {
     number: 3,
