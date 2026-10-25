@@ -30,13 +30,15 @@ const artifacts = [
   },
   {
     number: 3,
-    title: "Homework Planner",
-    status: "Placeholder",
-    summary: "An app that helps students organize their schoolwork.",
-    what: "A tool that lets students track assignments, deadlines, and upcoming exams.",
-    idea: "I want to help students stay organized and avoid missing deadlines.",
-    link: "",
-    reflection: "",
+    title: "Calorie Tracker + Claude Estimates",
+    status: "Complete",
+    summary: "My calorie tracker, extended so Claude estimates calories when I don't enter a number.",
+    what:
+      "An extension of my Python calorie tracker. When I log a food without a calorie number, Claude estimates it. The model only replies with a number, and my code checks that it's a whole number from 1 to 5000 before saving it.",
+    idea: "Make logging faster by letting AI fill in calories I don't know, while my code still checks the answer.",
+    link: "https://github.com/Waleid23/calorie-tracker",
+    reflection:
+      "I extended my calorie tracker so Claude estimates calories when I don't enter a number. The model only replies with a number, and my code checks it's a whole number from 1 to 5000 before saving. I tested a can of Coke and it estimated 140, which matched the label. I learned that keeping the model's job small makes it easier to tell whether a problem came from the model or my code.",
   },
   {
     number: 4,

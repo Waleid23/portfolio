@@ -35,3 +35,22 @@
 
 ## Link
 - Repo: https://github.com/Waleid23/calorie-tracker
+
+---
+
+# Build Log: Artifact 3 (Calorie Tracker + Claude Estimates)
+
+**AI used:** Claude Code (in the terminal), plus Claude as part of the tool itself
+
+## What I asked and what changed
+
+1. **Extended the calorie tracker.** When I log a food without a calorie number, the tool now asks Claude to estimate it.
+
+2. **Kept the model's job small.** Claude only replies with a number. My code checks that it's a whole number from 1 to 5000 before saving it.
+
+3. **Tested it myself.** I logged a can of Coke without a number. Claude estimated 140, which matched the label.
+
+4. **Updated the portfolio.** I replaced the Homework Planner placeholder (Artifact 3) with this card in `script.js`, then added its link and reflection and set it to Complete.
+
+## Link
+- Repo: https://github.com/Waleid23/calorie-tracker
