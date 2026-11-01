@@ -42,12 +42,15 @@ const artifacts = [
   },
   {
     number: 4,
-    title: "Expense Tracker",
-    status: "Placeholder",
-    summary: "A tool for keeping track of spending.",
-    what: "An app that lets users record their expenses and see how much money they spend.",
-    idea: "I want to make it easier for people to understand their spending habits.",
-    link: "",
+    title: "Grade Calculator",
+    status: "In Progress",
+    summary: "A team-built tool that shows what score you need on your next exam to reach your goal grade.",
+    what:
+      "A grade calculator we're building for a friend. You enter how the class is graded and your scores so far, and it tells you what you need on the next exam to reach your goal grade. Team: Waleid Sami and Zakariya.",
+    idea: "Help a friend know exactly what they need on their next exam instead of guessing.",
+    link: "https://github.com/Waleid23/grade-calculator",
+    progress:
+      "Team: Waleid Sami and Zakariya. We brainstormed ideas and chose a grade calculator for a friend that shows what score they need on their next exam to reach their goal grade. I set up our shared repository with a plan and a starter skeleton. Next we'll ask our friend how their class is graded and each build our part on our own branch.",
     reflection: "",
   },
   {
@@ -102,7 +105,10 @@ function openModal(i) {
 
   setText("modal-what", a.what, "Description coming soon.");
   setText("modal-idea", a.idea, "No idea yet.");
-  setText("modal-reflection", a.reflection, "I'll write this once the artifact is finished.");
+  // In-progress artifacts show a progress note in place of the reflection
+  const showProgress = !a.reflection && a.progress;
+  document.getElementById("modal-reflection-heading").textContent = showProgress ? "Progress so far" : "Reflection";
+  setText("modal-reflection", showProgress ? a.progress : a.reflection, "I'll write this once the artifact is finished.");
 
   const linkEl = document.getElementById("modal-link");
   linkEl.textContent = "";

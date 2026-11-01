@@ -54,3 +54,25 @@
 
 ## Link
 - Repo: https://github.com/Waleid23/calorie-tracker
+
+---
+
+# Build Log: Artifact 4 (Grade Calculator) — In Progress
+
+**AI used:** Claude Code (in the terminal)
+**Team:** Waleid Sami and Zakariya
+
+## What we did so far
+
+1. **Picked an idea together.** We brainstormed ideas and chose a grade calculator for a friend that shows what score they need on their next exam to reach their goal grade.
+
+2. **Set up the shared repository.** I created our shared repo with a plan and a starter skeleton.
+
+3. **Updated the portfolio.** I replaced the Expense Tracker placeholder (Artifact 4) with the Grade Calculator card in `script.js`, set it to In Progress, and added a progress note that shows in the details popup until the reflection is written.
+
+## Next steps
+- Ask our friend how their class is graded.
+- Each build our part on our own branch.
+
+## Link
+- Repo: https://github.com/Waleid23/grade-calculator
