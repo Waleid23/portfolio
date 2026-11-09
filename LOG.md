@@ -76,3 +76,26 @@
 
 ## Link
 - Repo: https://github.com/Waleid23/grade-calculator
+
+---
+
+# Build Log: Artifact 4 (Grade Calculator) — Complete
+
+**AI used:** Claude Code (in the terminal)
+**Team:** Waleid Sami and Zakariya
+
+## What we did
+
+1. **Asked our friend first.** Before building, I asked how their class is graded. Their answers decided the features, like dropping the lowest quiz and the late homework penalty.
+
+2. **Shared one plan.** We kept their answers in the repository so both of our agents worked from the same plan.
+
+3. **Combined our work with branches and pull requests.** Each of us built our part on our own branch and merged it through pull requests.
+
+4. **Tested it with our friend.** Our friend tried it and loved it.
+
+5. **Updated the portfolio.** I set the Grade Calculator card in `script.js` to Complete, replaced the progress note with the reflection, and kept the repository link (the card only has room for one link).
+
+## Links
+- Live site: https://waleid23.github.io/grade-calculator/
+- Repo: https://github.com/Waleid23/grade-calculator

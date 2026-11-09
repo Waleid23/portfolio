@@ -43,15 +43,14 @@ const artifacts = [
   {
     number: 4,
     title: "Grade Calculator",
-    status: "In Progress",
+    status: "Complete",
     summary: "A team-built tool that shows what score you need on your next exam to reach your goal grade.",
     what:
-      "A grade calculator we're building for a friend. You enter how the class is graded and your scores so far, and it tells you what you need on the next exam to reach your goal grade. Team: Waleid Sami and Zakariya.",
+      "A grade calculator we built for a friend. You enter how the class is graded and your scores so far, and it tells you what you need on the next exam to reach your goal grade. Team: Waleid Sami and Zakariya.",
     idea: "Help a friend know exactly what they need on their next exam instead of guessing.",
     link: "https://github.com/Waleid23/grade-calculator",
-    progress:
-      "Team: Waleid Sami and Zakariya. We brainstormed ideas and chose a grade calculator for a friend that shows what score they need on their next exam to reach their goal grade. I set up our shared repository with a plan and a starter skeleton. Next we'll ask our friend how their class is graded and each build our part on our own branch.",
-    reflection: "",
+    reflection:
+      "Zakariya and I built a grade calculator for a friend that shows what score they need on their next exam to reach their goal grade. I asked them how their class is graded first, and their answers decided the features, like dropping the lowest quiz and the late homework penalty. We kept their answers in the repository so both of our agents worked from the same plan, and we used branches and pull requests to combine our work. Our friend tried it and loved it.",
   },
   {
     number: 5,
