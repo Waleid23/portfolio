@@ -99,3 +99,27 @@
 ## Links
 - Live site: https://waleid23.github.io/grade-calculator/
 - Repo: https://github.com/Waleid23/grade-calculator
+
+---
+
+# Build Log: Artifact 5 (SubTrack) — In Progress
+
+**AI used:** Claude Code (in the terminal)
+
+## What I did so far
+
+1. **Picked an idea.** I chose SubTrack, a subscription tracker web app for tracking subscriptions, free trials, spending, and shared plans split with friends.
+
+2. **Asked potential users first.** I asked people what they pay for and what bothers them about keeping track of it.
+
+3. **Chose the stack.** Next.js for the app, Supabase for the database, and Vercel for hosting.
+
+4. **Wrote a plan.** I broke the work into weekly pieces.
+
+5. **Updated the portfolio.** I replaced the AI Study Assistant placeholder (Artifact 5) with the SubTrack card in `script.js`, set it to In Progress, and added a progress note that shows in the details popup until the reflection is written.
+
+## Next steps
+- Build the first weekly piece of the plan.
+
+## Link
+- Repo: https://github.com/Waleid23/subtrack

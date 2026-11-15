@@ -54,12 +54,15 @@ const artifacts = [
   },
   {
     number: 5,
-    title: "AI Study Assistant",
-    status: "Placeholder",
-    summary: "A tool that helps students study using AI.",
-    what: "An application that helps students review notes and generate practice questions.",
-    idea: "I want to explore how AI can help students learn and prepare for exams.",
-    link: "",
+    title: "SubTrack",
+    status: "In Progress",
+    summary: "A web app for tracking subscriptions, free trials, spending, and shared plans.",
+    what:
+      "A subscription tracker web app for tracking subscriptions, free trials, spending, and shared plans split with friends. Built with Next.js, Supabase, and Vercel.",
+    idea: "Help people see everything they pay for in one place, catch free trials before they turn into charges, and split shared plans with friends.",
+    link: "https://github.com/Waleid23/subtrack",
+    progress:
+      "A subscription tracker web app for tracking subscriptions, free trials, spending, and shared plans split with friends. This week I picked the idea, asked potential users what they pay for and what bothers them, chose the stack (Next.js, Supabase, Vercel), and wrote a plan broken into weekly pieces.",
     reflection: "",
   },
 ];
